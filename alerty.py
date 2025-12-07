@@ -2,9 +2,8 @@ alerty = [
     {"id": 101, "severity": "low"},
     {"id": 102, "severity": "high"},
     {"id": 103, "severity": "medium"},
-    {"id": 104, "severity": "high"},
+    {"id": 104, "severity": "high"}
 ]
-
 for alert in alerty:
     if alert["severity"] == "high":
         print(f"Alert {alert['id']} jest krytyczny - inicjuje akcje")
