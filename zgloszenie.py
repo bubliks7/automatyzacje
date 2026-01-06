@@ -3,6 +3,7 @@ użytkownicy = [
     {"name": "Ewa", "status": "locked"},
     {"name": "Ola", "status": "active"}
 ]
+
 for user in użytkownicy:
     if user["status"] == "active":
         print('Uzytkownik ' + user['name'] + ' jest aktywny')
