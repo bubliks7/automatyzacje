@@ -8,7 +8,5 @@ if response.status_code == 200:
         print("OK - pobrano dane")
     except ValueError as e:
         print("Błąd parsowania JSON: ", e)
-
 else:
     print("Błąd API, kod:", response.status_code)
-
